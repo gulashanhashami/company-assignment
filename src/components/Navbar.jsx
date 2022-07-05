@@ -25,16 +25,7 @@ font-family: sans-serif;
       top: 0;
     }
     
-    // .mlogo {
-    //   width: 85%;
-    //   height: 7.3vh;
-    //   @media (max-width:400px){
-    //     width:20%;
-    //     height:4.2vh;
-    // }
-    //   //  border: 1px solid red; 
-    //   margin-bottom: 3.8%;
-    // }
+  
     #inps {
       width: 68.5%;
       background-color: rgba(249, 249, 249, 255);
@@ -52,19 +43,7 @@ font-family: sans-serif;
       font-weight: 500;
       padding-left: 1%;
     }
-  //   .searchb {
-  //     /* border:1px solid grey; */
-  //    position: relative;
-  //    width:2%;
-  //    height:30%;
-  //    @media (max-width:400px){
-  //     width:5%;
-  //     left: -4.5%;
-  //     top: 1.5px;
-  //    }
-  //    top: 2px;
-  //    left: -3.6%;
-  //  }
+  
    
    
     #car {
