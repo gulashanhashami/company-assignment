@@ -175,7 +175,7 @@ p{
         right: 10.5%;
     }
     position: relative;
-    top: -18.9vh;
+    top: -23.9vh;
 
     right: -3.5%;
   }
@@ -192,7 +192,7 @@ p{
     }
     font-size: .8vw;
     position: relative;
-    top: -19.1vh;
+    top: -24.1vh;
     right: +2.5%;
     color: white;
     background-color: black;
