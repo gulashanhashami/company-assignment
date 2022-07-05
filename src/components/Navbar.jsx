@@ -97,7 +97,6 @@ export const Navbar = () => {
          <div id="navbar1">
         
          <input id="inps"  type="text" />
-            {/* <img className="searchb" src="https://img.icons8.com/material-outlined/2x/search.png" alt="" /> */}
         
          <div>
              <img className="help" src="https://ii1.pepperfry.com/images/svg/web21-header-help-icon.svg" alt="" />
