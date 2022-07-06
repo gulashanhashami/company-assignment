@@ -99,11 +99,11 @@ p{
 }
 
 .card{
-    width: 95%;
-    height: 40vh;
+    width: 210px;
+    height: 350px;
     @media (max-width:400px){
-        width: 100%;
-        height:30vh;
+        width: 110px;
+    height: 250px;
         padding-bottom: 3%;
     }
    display: flex;
@@ -114,10 +114,11 @@ p{
     // border: 1px solid red; 
 }
 .img1{
-    width: 100%;
-    height: 75%;
+    width: 200px;
+    height: 300px;
     @media (max-width:400px){
-        height: 80%;
+        width: 100px;
+    height: 200px;
     }
 }
 .title{
@@ -171,7 +172,7 @@ p{
         width:43%;
         height:2.5vh;
         font-size: 2.2vw;
-        top: -15.8vh;
+        top: -21vh;
         right: 10.5%;
     }
     position: relative;
@@ -184,9 +185,9 @@ p{
     height:5vh;
     @media (max-width:400px){
         width:11.9%;
-        height:3.1vh;
+        height:2.8vh;
         right: 23%;
-        top: -15.8vh;
+        top: -21.1vh;
         font-size: 2.5vw;
         border: .1vw solid black;
     }
@@ -277,7 +278,7 @@ useEffect(()=>{
        setSdata(arrs1)
        
     }
-    if(e.target.value==="high"){
+    else{
         let arrs2=sdata.sort((a,b)=> b.price-a.price);
         setSdata(arrs2)
       
