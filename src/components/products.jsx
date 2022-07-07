@@ -352,9 +352,9 @@ if(sdata.length===0){
       </div>
         <div className="box1">
             {/**code for mapping the data to show on browser**/}
-     {sdata.map((item,i)=>{
+     {sdata.map((item)=>{
          return (
-             <div key={i} className="card">
+             <div key={item._id} className="card">
              <img className="img1" srcSet={item.image} alt="" />
              <p className="title">{item.title}</p>
              <p className="price">Price: Rs.{item.price}</p>
